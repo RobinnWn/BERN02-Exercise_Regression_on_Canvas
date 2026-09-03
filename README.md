@@ -18,6 +18,14 @@ This repository contains a manual implementation of Ordinary Least Squares (OLS)
 * **Standard Error of Mean Response**:
   $$SE(\hat{\mu}) = s_e \sqrt{\frac{1}{n} + \frac{(x_0 - \bar{x})^2}{SS_x}}$$
 * **Visualization**: Generated using `matplotlib` to plot actual data points, the fitted regression line, and targeted predictions.
+### 1. Manual OLS Prediction Results
+POOR = 10% | Expected values (MORT): 913.51 | standard error (SE): 10.76
+POOR = 18% | Expected values (MORT): 962.62 | standard error (SE): 9.83
+POOR = 25% | Expected values (MORT): 1005.59 | standard error (SE): 20.41
+
+### 2. Regression Line & Prediction Plot
+<img width="2362" height="1556" alt="image" src="https://github.com/user-attachments/assets/37e877aa-a330-4fda-a64e-9af1dd7c7be2" />
+
 
 ## How to Run
 
@@ -26,4 +34,5 @@ This repository contains a manual implementation of Ordinary Least Squares (OLS)
 3. Run the script:
 
 ```bash
-python Exercise-01.py
+python Luobin_0903_BERN02_Exercise-01.py
+
